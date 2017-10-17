@@ -1,0 +1,5 @@
+#! /usr/bin/env node
+
+const updater = require('../');
+const yarnBinPath = process.argv[2];
+updater(yarnBinPath);

@@ -1,0 +1,26 @@
+{
+  "name": "@sandfox/bundled-yarn-updater",
+  "version": "0.0.1",
+  "description": "updates a bundled version of yarn",
+  "main": "index.js",
+  "repository": "https://github.com/sandfox/bundled-yarn-updater.git",
+  "author": "sandfox",
+  "license": "LGPL-3.0",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-plugin-prettier": "^2.3.1",
+    "prettier": "^1.7.4"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "semver": "^5.4.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "lint:fix": "eslint --fix *.js",
+    "test": "node test.js"
+  },
+  "bin": "./bin/bundled-yarn-updater"
+}
