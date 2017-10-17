@@ -1,6 +1,6 @@
 {
   "name": "@sandfox/bundled-yarn-updater",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "updates a bundled version of yarn",
   "main": "index.js",
   "repository": "https://github.com/sandfox/bundled-yarn-updater.git",

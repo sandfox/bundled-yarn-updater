@@ -18,7 +18,7 @@ const bundleHintBlogLink =
 module.exports = yarnBinPath => {
   // Grab the current local version
   const getLocalYarnVersion = () =>
-    spawnSync(yarnBinPath, ["-v"], { encoding: "utf8" }).stdout.trim();
+    spawnSync(yarnBinPath, ["--version"], { encoding: "utf8" }).stdout.trim();
 
   fetch(releaseUrl)
     .then(res => {
